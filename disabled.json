@@ -1,0 +1,15 @@
+{
+  RBL-Services: {
+    disabled: {
+      id: "support", "app", "servers",
+    },
+    enabled: {},
+    files: {
+   		path-data: [./config/data.js],
+   		path-conf: [./config.js],
+    },
+  },
+  RBL-hosting: {
+ 		ip: [0.0.0.0],
+  },
+}
